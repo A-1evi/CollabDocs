@@ -145,7 +145,7 @@ const LoginRegisterPage = () => {
                       name="name"
                       value={formData.register.name}
                       onChange={(e) => handleOnChange("register", e)}
-                      className="text-sm sm:text-base text-black placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
+                      className="text-sm sm:text-base text-white placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
                       placeholder="Username"
                     />
                   </div>
@@ -183,7 +183,7 @@ const LoginRegisterPage = () => {
                     onChange={(e) =>
                       handleOnChange(isLogin ? "login" : "register", e)
                     }
-                    className="text-sm sm:text-base text-black placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
+                    className="text-sm sm:text-base text-white placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
                     placeholder="E-Mail Address"
                   />
                 </div>
@@ -224,7 +224,7 @@ const LoginRegisterPage = () => {
                     onChange={(e) =>
                       handleOnChange(isLogin ? "login" : "register", e)
                     }
-                    className="text-sm sm:text-base text-black placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
+                    className="text-sm sm:text-base text-white placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
                     placeholder="Password"
                   />
                 </div>
